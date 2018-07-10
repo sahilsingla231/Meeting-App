@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <EditText
+        android:id="@+id/topicET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:ems="10"
+        android:hint="Enter Meeting Topic"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/dateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/topicET"
+        android:layout_centerVertical="true"
+        android:text="Pick Date"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/timeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/topicET"
+        android:layout_marginTop="192dp"
+        android:text="Choose Time"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/alarmBtn"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="153dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="set reminder"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/addMeetingBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/colorAccent"
+        android:text="add"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/durationET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:ems="10"
+        android:hint="Enter Duration : Hours"
+        android:inputType="number"
+
+        android:textColor="@android:color/background_dark" />
+</RelativeLayout>

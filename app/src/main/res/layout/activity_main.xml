@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFCC"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="186dp"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
+        android:background="?attr/colorAccent"
+        android:text="add meeting"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <Button
+        android:id="@+id/viewBtn"
+        android:layout_width="183dp"
+        android:layout_height="92dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="145dp"
+        android:background="?attr/colorPrimary"
+        android:text="View schedule"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</RelativeLayout>
